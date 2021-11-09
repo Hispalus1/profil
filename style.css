@@ -1,0 +1,115 @@
+header {
+    width: 80%;
+    margin: auto !important;
+    
+}
+#hlavninadpis {
+    margin-top: 120px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: white;
+}
+body {
+    background-image: url(./img/backround.jpg);
+    background-size: inherit;
+
+
+}
+main {
+    width: 80%;
+    margin-top: 140px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: white;
+}
+.image {
+    width: 80%;
+    min-width: 200px;
+    border: solid black 5px !important;
+    border-radius: 20px;
+    opacity: 0.5;
+    transition: 1s;
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+.image:hover {
+    opacity: 1 !important;
+    border-radius: 20px;
+    transition: 0.3s;
+    
+}
+.predmet {
+    font-size: 25px;
+    margin-bottom: 40px;
+    
+}
+.telo{
+    background-color: rgba(0, 0, 0, 0.733);
+    border: solid black 5px;
+    border-radius: 40px;
+    padding: 5%;
+    margin-top: 10px;
+
+}
+
+
+.item {
+    margin-bottom: 5px;
+    color: #3db1f000;
+    transition: 1s;
+}
+
+.flex-boximage:hover .item {
+    color: #ffffff !important;
+    transition: 1s;
+}
+
+.imgs {
+    width: 70%;
+    height: 90%;
+    min-width: 200px;
+    border-radius: 20px;
+    opacity: 0.5;
+    transition: 0.5s;
+    text-align: center;
+}
+.imgs:hover {
+    transition: 0.5s;
+    opacity: 1;
+    
+}
+footer {
+    position: relative;
+    bottom: 0%;
+    
+}
+
+.footer1 {
+    color: whitesmoke;
+    padding-left: 300px !important;
+    padding-right: 100px !important;
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
+}
+h2 {
+    margin-bottom: 40px !important;
+    padding-top: 25px;
+    
+}
+.fa-github {
+    color: white;
+    transition: 0.3s;
+}
+
+.fa-github:hover {
+    color: black;
+    transition: 0.3s;
+}
+.stred{
+    text-align: center !important;
+    
+}
+
+
+
